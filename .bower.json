@@ -1,0 +1,17 @@
+{
+  "name": "ng-file-upload-ie9",
+  "main": "ng-file-upload.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kcanonweb/ng-file-upload-ie9",
+  "authors": [
+    "danialf <kcanonweb@gmail.com>"
+  ],
+  "description": "Lightweight Angular JS directive to upload files. Support drag&drop, progress and abort",
+  "ignore": [],
+  "license": "MIT",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1"
+  },
+}
