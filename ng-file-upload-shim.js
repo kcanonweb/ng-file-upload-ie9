@@ -313,6 +313,7 @@
               fileElem.bind('mouseenter', makeFlashInput);
             }, 10);
             fileElem.bind('change', function (evt) {
+				// modify by kcanonweb
                 var files = FileAPI.getFiles(evt);
                 var dummyFile = JSON.stringify(files[0].name).replace(/\"/g,'');
               	 

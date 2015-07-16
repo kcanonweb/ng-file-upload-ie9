@@ -5,6 +5,15 @@
 	<title></title>
 </head>
 <body>
-
+	<div class="wrapFiles" >		
+		<p class="files" >
+			<span class="ie-file-wrap"><input type="file" name="file" ng-model="picFile"  ngf-select accept="*" /></span>
+			<button type="button" ng-click="uploadPic(picFile)">업로드</button>
+		</p>
+		<div ng-show="picFile[0].progress >= 0">
+			<p style="width:{{picFile[0].progress}}%; height:20px; background:red;" ng-bind="picFile[0].progress + '%'"></p>
+		</div>
+		<p ng-show="picFile[0].result">업로드 성공</p>
+	</div>	
 </body>
 </html>
