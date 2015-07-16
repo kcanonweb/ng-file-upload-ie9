@@ -17,7 +17,7 @@
       Object.defineProperty(xhr, prop, {get: fn});
     } catch (e) {/*ignore*/
     }
-  }
+  }  
 
   if (!window.FileAPI) {
     window.FileAPI = {};
@@ -322,7 +322,6 @@
                 		fileElem.next('.ie-file-input').remove();
                 		fileElem.parent('.ie-file-wrap').css('position', 'relative');
                 		fileElem.parent('.ie-file-wrap').append('<span class="ie-file-input" style="position:absolute; top:0px; left:0px; display:inline-block; width:50%; white-space:nowrap; overflow:hidden;">' + dummyFile + '</span>');
-//  				    alert('change' +  evt);
               });
           } else {
             bindAttr(elem.$$ngfRefElem);
